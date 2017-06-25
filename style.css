@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+body {
+  background: url('img/background.jpg') repeat;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  padding: 50px 0;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  font-size: 30px;
+}
+
+.meta-info p {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.outer-wrapper {
+  margin: 20px;
+  background-color: #2f358b;
+  min-height: 800px;
+  border-radius: 5px;
+}
+
+header, main {
+  text-align: center;
+}
+
+header {
+  padding-top: 80px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #f29200;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  line-height: 1;
+}
+
+h1 span {
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+}
+
+.start {
+  border: 1px solid #f29200;
+  color: #f29200;
+  background-color: transparent;
+  font-size: 30px !important;
+  border-radius: 5px;
+}
+
+.start:focus, .start:hover {
+  background-color: #f29200;
+  color: #2f358b;
+}
+
+.submit,
+.next {
+  border: 1px solid #f29200;
+  color: #f29200;
+  background-color: transparent;
+  font-size: 30px !important;
+  border-radius: 5px;
+}
+
+.submit:focus,
+.submit:hover,
+.next:focus,
+.nex:hover {
+  background-color: #f29200;
+  color: #2f358b;
+}
+
+.submit:disabled,
+.next:disabled {
+  background-color: grey;
+}
+
+label {
+  color: white;
+}
