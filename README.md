@@ -1,5 +1,6 @@
 # Quiz App - Do You Know the 90's?
-```
+This is my first stab at a real web application.
+
 Hight Level:
 -User starts on a screen where they click a button to start
 the quiz.
