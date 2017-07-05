@@ -242,7 +242,8 @@ function finishQuiz() {
       text: 'You scored ' + scoreCounter + ' out of 10!',
       type: 'info',
       confirmButtonColor: '#f29200',
-      confirmButtonText: 'Try Again?'
+      confirmButtonText: 'Try Again?',
+      allowOutsideClick: false
     }).then(function () {
       resetQuiz();
     })
